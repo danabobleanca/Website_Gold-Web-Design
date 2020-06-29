@@ -1,0 +1,798 @@
+body{
+    background-color:#0c0c0c;
+     font-family: 'Port Lligat Slab', serif;;
+}
+header{
+    height:auto;
+    border-bottom:1px solid #e7ce86;
+    display:flex;
+    flex:1;
+    color:white;
+    justify-content: space-around;
+
+}
+
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	background-color:#990000;
+	float:right;
+	text-align:right;
+	font-size:25px;
+	cursor:pointer;
+	display:none;
+}
+
+#fa_bar{
+	color:white;
+}
+header div{
+    padding:6px 0px;
+    flex:1;
+}
+header div a{
+    color:white;
+}
+
+header div span{
+    font-size:14px;
+}
+
+header img{
+    width:23px;
+    padding:0px 10px;
+}
+
+
+nav ul{
+    text-align:center;
+    margin:0px;
+}
+nav ul li {
+    color:white;
+    list-style-type: none;
+    display:inline-block;
+    margin:20px 0px;
+    width:120px;
+    border-right:1px solid #e7ce86;
+    padding:5px 0px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#e7ce86;
+    font-size:14px;
+    
+}
+
+nav ul #linie_final{
+    border-right:0px;
+}
+
+nav ul li:hover{
+    background-color:#53361f ;
+}
+
+nav ul a:hover{
+    color:white;
+}
+
+                                        /* HOME  HEADER*/
+
+section #welcome{
+    text-align: center;
+}
+section #welcome img{
+    max-width:650px;
+    height:300px;
+    float:left;
+}
+
+#continut{
+   background-image:url(imagini/old.jpg);
+   height:auto;
+}
+
+#continut1{
+    height:100%;
+    background-color:#0c0c0c;
+    opacity:0.85;
+    text-align:Center;
+    
+}
+
+#logo img{
+    width:300px;
+    margin:50px auto;
+}
+#continut1_text{
+    border:4px double #e7ce86;
+    padding:20px 40px;
+    text-align:center;
+    width:50%;
+    color:white;
+    margin:0px auto;
+    font-size:16px;
+}
+
+.continut1_home{
+    padding-bottom:80px;
+}
+#continut2{
+    display:flex;
+    box-sizing: border-box;
+}
+
+                                        /* HOME DESPRE */
+#pagini_continut{
+    flex-basis:70%;
+    background-image: url(imagini/gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:1px dotted  #e7ce86;
+    border-right:0px;
+    box-sizing: border-box;
+    padding:80px 90px 40px 150px;
+    font-size:16px;
+    color:#7f7f7f;
+}
+
+#pagini_continut #despre{
+    font-size:58px;
+    font-weight:bold;
+    color: #e7ce86;
+}
+
+#citat{
+    font-size:32px;
+}
+
+                                         /* HOME   SERVICII*/
+#pagini_continut_servicii{
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    justify-content: space-around;
+}
+
+#pagini_continut_servicii div{
+    flex-basis:30%;
+    padding:15px 10px;
+    box-sizing:border-box;
+    text-align:Center;
+    margin:0px;
+}
+#pagini_continut_servicii div img{
+    width:120px;
+}
+
+                                         /* HOME   PORTOFOLIU*/
+#pagini_continut_portofoliu{
+    display:flex;
+    flex-basis:40%;
+    text-align:Center;
+    justify-content: space-around;
+   
+}
+
+#pagini_continut_portofoliu div{
+    text-align:center;
+}
+
+ #pagini_continut_portofoliu h1{
+    background-color:black;
+    width:250px;
+    opacity:0.7;
+    padding:20px 0px;
+    margin:0px;
+
+}
+
+#pagini_continut_portofoliu div img{
+    width:250px;
+    margin-top:20px;
+}
+
+                                         /* HOME  NOUTATI*/
+#pagini_continut_noutati img{
+    max-width:100%;
+}
+
+#pagini_continut_noutati{
+    box-sizing: border-box;
+    text-align:center;
+    margin:30px 100px 20px 100px;
+}
+ #pagini_continut_noutati h5{
+    margin-top:20px;
+    background-color:#7d5330;
+    text-align:Center;
+    width:110px;
+    padding:8px 0px;
+    margin:0px auto;
+    color:black;
+    border-radius:8px;
+}
+
+#pagini_continut_noutati a{
+    text-decoration:none;
+}
+
+                                         /* HOME  CONTACT*/
+#pagini_continut #date_contact{
+    text-align:Center;
+    color:white;
+}
+
+#pagini_continut #date_contact div{
+    background-color:#53361f;
+    box-shadow:inset 0px 0px  30px #20150c;
+}
+
+#pagini_continut #date_contact a{
+    color:white;
+}
+
+#pagini_continut h4{
+    margin-top:50px;
+    text-align:right;
+}
+#pagini_continut h4 a{
+    color:black;
+    text-decoration:none;
+    background-color:white;
+    padding:10px;
+    box-shadow:inset 0px 0px  80px #20150c;
+
+}
+
+#pagini_continut h4 a:hover{
+    background-color:#53361f ;
+}
+
+                                         /* HOME  MENIU*/
+#pagini_meniu{
+    flex-basis:30%;
+    display:flex;
+    flex-wrap:wrap;
+    padding:30px 40px;
+    background-color:black;
+    padding-bottom:200px;
+    background-image: url(imagini/building4.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.iconita_meniu{
+    text-align:center;
+    width:100px;
+    color:white;
+    padding:10px;
+    margin:10px 10px;
+    border-left:4px double #e7ce86;
+    max-height:90px;
+    
+}
+
+.iconita_meniu img{
+    width:30px;
+}
+
+.iconita_meniu:focus{
+    border-left:0px;
+    outline:3px double #533720;
+    box-shadow:inset 0px 0px  30px #533720;
+}
+
+
+                                        /* SERVICII */
+.banner{
+    padding:2px 0px;
+    background-color:black;
+    color: #e7ce86;
+    font-size:28px;
+}
+/* The animation code */
+@keyframes banner {
+    from {transform:translate(100%);}
+    to {transform:translate(0%);}
+}
+
+#continut1 .banner {
+    animation-name: banner;
+    animation-duration: 1s;
+}
+
+#pasi_servicii{
+    display:flex;
+    flex:1;
+    align-items:center;
+    margin:30px 0px;
+    background-color:#452d1a;
+    padding:30px 0px;
+
+}
+
+#pasi_servicii div{
+    text-align:center;
+    padding:20px 15px;
+    margin:10px 15px;
+    border:1px solid #452d1a;
+    box-shadow:inset 0px 0px  40px #53361f;
+    color:#e7ce86;
+}
+
+#pasi_servicii .sageata{
+    width:40px;
+    height:60px;
+}
+
+#pasi_servicii img{
+    width:50px;
+}
+
+                                         /* SERVICII CONTINUT */
+#continut_servicii{
+    padding:50px 150px;
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    box-sizing: border-box;
+    color:#7f7f7f;
+    background-image: url(imagini/gradient.png);
+    background-size: cover;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#continut_servicii div{
+    flex-basis:30%;
+    padding:15px;
+    box-sizing: border-box;
+    text-align:Center;
+}
+
+.casuta_servicii{
+    position:relative;
+    margin-bottom:180px;
+    text-align:Center;
+}
+#continut_servicii div img{
+    width:260px;
+    height:270px;
+    border:5px double  white;
+    border-radius:10%;
+    text-align:Center;
+    margin:0px auto;
+
+}
+
+
+#text_continut_servicii{
+    width:250px;
+    border-radius:7%;
+    position:absolute;
+    top:75%;
+    background-color:white;
+    opacity:0.8;
+    color:black;
+    padding:0px;
+    margin-left:10px;
+
+}
+#continut_servicii div p{
+    text-align: center;
+    font-size:15px;
+}
+#continut_servicii h2{
+    margin:0px auto;
+    font-size:28px;
+    padding-top:30px;
+}
+#text_continut_servicii h3{
+    font-size:23px;
+}
+
+                                         /* CONTINUT DETALIAT SERVICII*/
+#site_prezentare_continut{
+    display:flex;
+    color:white;
+}
+
+#site_prezentare_continut #meniu_servicii ul{
+    color:white;
+    width:200px;
+    text-align:Center;
+}
+
+#site_prezentare_continut #meniu_servicii ul li{
+    list-style-type: none;
+    border-bottom:1px solid white;
+    width:100%;
+    margin:0px;
+    padding:20px 0px;
+    background-color:black;
+}
+
+#site_prezentare_continut #meniu_servicii ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+#site_prezentare_continut #meniu_servicii #graphic{
+    border-bottom:0px;
+}
+
+#text_pagini_servicii{
+    padding:50px 100px;
+    width:100%;
+}
+#text_pagini_servicii img{
+    max-width:100%;
+}
+
+#text_pagini_servicii #text1{
+    width:50%;
+    float:left;
+    padding:15px;
+    box-sizing:border-box;
+}
+#text_pagini_servicii #text2{
+    width:50%;
+    float:right;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+#text_pagini_servicii p{
+    padding:5px 15px;
+    margin:0px;
+}
+#text_pagini_servicii #text1 p:nth-child(odd), #text_pagini_servicii #text2 p:nth-child(odd){
+  background-color:white;
+  color:black;
+}
+
+#text_pagini_servicii #text1 p:nth-child(even), #text_pagini_servicii #text2 p:nth-child(even){
+    color:white;
+    background-color:#53361f;
+  }
+
+  #text_pagini_servicii  #servicii_header{
+      text-align:Center;
+      font-size:30px;
+      line-height:70px;
+      margin-top:40px;
+  }
+
+  #text_pagini_servicii #text3{
+      display:flex;
+      text-align:Center;
+      margin-top:20px;
+      flex-wrap:wrap;
+      box-sizing: border-box;
+      justify-content:space-around;
+  }
+
+  #text_pagini_servicii #text3 div{
+    padding:20px 10px;
+    box-shadow:inset 0px 0px  40px black;
+    font-size:17px;
+    flex-basis:30%;
+    background-color:#53361f;
+    box-sizing: border-box;
+    margin-bottom:20px;
+  }
+  #text_pagini_servicii #text3 div h2{
+     margin:0px auto;
+     text-align:center;
+  }
+  #text_pagini_servicii #text3 div h3, #text_pagini_servicii #text4 div h3 {
+      font-size:25px;
+  }
+  #text_pagini_servicii #text4{
+      display:flex;
+     flex-basis:50%;
+     text-align:center;
+     justify-content:space-around;
+  }
+
+  #text_pagini_servicii #text4 p:nth-child(even), #text_pagini_servicii #text4 p:nth-child(even){
+    color:white;
+    background-color:#53361f;
+  }
+
+  #text_pagini_servicii #text4 p:nth-child(odd), #text_pagini_servicii #text4 p:nth-child(odd){
+    background-color:white;
+    color:black;
+  }
+
+
+                                        /*PORTOFOLIU*/
+
+#proiecte_realizate{
+    width:100%;
+    color:black;
+    display:inline-block;
+    position:Absolute;
+    background-color:white;
+    padding:15px 20px;
+    box-sizing:border-box;
+}
+#siteuri{
+    display:flex;
+    text-align:Center;
+    flex:1;
+
+}
+
+#siteuri div{
+    flex-basis:33.33%;
+    height:370px;
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:100px 20px;
+    position:relative;
+    text-align:center;
+    background-color:black;
+}
+
+.proiecte h1{
+    position:Absolute;
+    top:68.5%;
+    background-color:black;
+    padding:55px 0px 12px 0px;
+    width:100%;
+    opacity:0.8;
+
+}
+
+.proiecte a, #pagini_continut_portofoliu a{
+    text-decoration:none;
+    color:white;
+}
+
+.proiecte h1:hover, #pagini_continut_portofoliu h1:hover{
+    opacity:0.98;
+}
+
+
+#proiect1{
+    background-image: url(imagini/pensiunea_golden.png);
+}
+
+#proiect2{
+    background-image: url(imagini/mak_inovator.png);
+}
+#proiect3{
+    background-image: url(imagini/rochii_mireasa_vaslui.png);
+}
+
+
+                                        /*NOUTATI*/
+    
+#articole_container{
+    display:flex;
+    flex:1;
+    box-sizing: border-box;
+    justify-content: space-around;
+}  
+
+.articole{
+    flex-basis:30%;
+    padding:20px 35px;
+    box-sizing: border-box;
+    color:#7f7f7f;
+    background-image: url(imagini/gradient3.png);
+    background-size: cover;
+    margin:30px 0px;
+    text-align: center;
+}
+
+.articole img{
+    width:300px;
+    height:200px;
+    border-radius:10px;
+    border:1px solid #7f7f7f;
+}
+.articole h2, #pagini_continut_noutati h2{
+    color:#7d5330;
+}
+
+.articole p{
+    font-size: 15px;
+}
+
+.articole h5{
+    margin-top:20px;
+    background-color:#7d5330;
+    text-align:Center;
+    width:110px;
+    padding:8px 0px;
+    float:right;
+    color:black;
+    border-radius:8px;
+}
+
+.articole h5:hover{
+    color:white;
+}
+
+                                /*ARTICOLE*/
+.articole_text{
+    padding:80px 240px;
+    color:#7f7f7f;
+    background-image: url(imagini/gradient.png);
+    background-size: cover;
+    font-size:16px;
+}
+
+.articole_text h1{
+    color:#e7ce86;
+    font-size:35px;
+    padding:20px 0px;
+}
+
+.articole_text ol li span{
+    font-size:20px;
+    color:white;
+}
+
+.articole_text img{
+    float:right;
+}
+
+.articole_text p span{
+    color:white;
+    font-size: 20px;
+}
+
+.articole_text h2{
+    text-decoration: underline;
+}
+
+#articol2_text img{
+    width:250px;
+   margin-left:20px;
+}
+#articol2_text #grafica{
+    float:left;
+    margin-right:40px;
+}
+
+#articol2_text #marketing{
+    width:350px;
+}
+
+#aspect{
+    text-decoration:underline;
+    font-size:24px;
+}
+
+#articol3_text .aspecte{
+    color:white;
+    font-size: 18px;
+}
+#articol3_text img{
+    width: 420px;
+    margin-left:20px;
+
+}
+
+                                        /*ECHIPA*/
+
+ #membru1 , #pagini_continut_echipa{
+    width:300px;
+    text-align: center;
+    margin:30px auto;
+    border: 3px double white;
+    box-shadow:inset 0px 0px  60px black;
+    background-color: white;
+    
+ }
+
+ #membru1 img, #pagini_continut_echipa img{
+     border-radius:50%;
+ }
+
+ #membru1 h3 , #pagini_continut_echipa h3{
+     width:300px;
+     color:white;
+     background-color: black;
+     margin:0px;
+     padding:10px 0px;
+     opacity:0.8;
+
+ }
+
+ #membru1 a, #pagini_continut_echipa a{
+     text-decoration:none;
+ }
+
+                                            /* CONTACT */
+ #pagina_contact2{
+    box-sizing:border-box;
+    display:flex;
+    flex:1;
+    margin:0 auto;
+    text-align:Center;
+    justify-content: center;
+    background-color:white;
+    padding:60px;
+    box-sizing: border-box;
+ }
+
+ #pagina_contact2 div{
+    width:50%;
+ }
+ 
+
+ #pagina_contact2 div form{
+     border:1px solid gray;
+     border-radius:10px;
+     padding:20px 20px;
+     margin:0px 60px;
+     width:70%;
+ }
+
+ #pagina_contact2 form input, textarea{
+    margin-bottom:20px;
+    max-width:230px;
+    min-width: 180px;
+ }
+
+ #pagina_contact2 form textarea{
+     height:80px;
+ }
+
+ #pagina_contact2 form input[type="submit"]{
+     width:100px;
+     padding:10px 0px;
+     font-weight: bold;
+ }
+
+ 
+#date_contact{
+    display:flex;
+    flex:1;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    justify-content:space-around;
+    align-self: center;
+}
+
+#date_contact div{
+    box-sizing:border-box;
+    width:40%;
+    border:1px solid gray;
+    margin:20px;
+    box-shadow:inset 0px 0px  60px #53361f;
+    padding:20px;
+}
+#date_contact div img{
+    width:80px;
+}
+
+#facebook_page{
+    font-size:20px;
+}
+
+#facebook_page a{
+    text-decoration: none;
+}
+
+                                            /*FOOTER*/
+#footer{
+    border-top:1px solid #e7ce86;
+    color:white;
+    text-align:Center;
+    padding:20px;
+    font-size:14px;
+}
+
+#footer a{
+    text-decoration:none;
+    color:#7d5330;
+}
